@@ -1,0 +1,57 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientBrandRetrieverMixin",
+    "ClientConnectionMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "EndCrystalItemMixin",
+    "EntityEnderCrystalMixin",
+    "EntityMixin",
+    "EntityRendererDispatcherMixin",
+    "ILivingEntity",
+    "IMouseAccessorMixin",
+    "InGameHudMixin",
+    "IPlayerPositionLookS2CPacket",
+    "KeyboardMixin",
+    "LivingEntityMixin",
+    "MinecraftClientMixin",
+    "PlayerEntityMixin",
+    "PlayerMoveC2SPacketAccessor",
+    "ResourcePackSendS2CPacketMixin",
+    "ScoreboardMixin",
+    "ServerResourcePackProviderMixin",
+    "TextVisitFactoryMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "CameraMixin",
+    "ClientPlayerEntityMixin",
+    "ClientWorldMixin",
+    "EntityRendererMixin",
+    "HeldItemRendererMixin",
+    "IClientPlayerInteractionManagerAccessor",
+    "IClientWorldMixin",
+    "IHandledScreenAccessor",
+    "IHeldItemRenderer",
+    "IKeyBinding",
+    "IKeyboardAccessorMixin",
+    "IMinecraftClient",
+    "INativeImage",
+    "InputMixin",
+    "KeybindingMixin",
+    "KeyboardInputMixin",
+    "LivingEntityRendererMixin",
+    "MouseMixin",
+
+    "PlayerEntityRendererMixin"
+  ],
+  "refmap": "Tulip-refmap.json"
+}

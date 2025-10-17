@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "tulip",
+  "version": "1.2.1",
+  "name": "Tulip",
+  "license": "Apache-2.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.fabricmc.fabric.client.ClientInit"
+    ],
+    "main": [
+      "net.fabricmc.fabric.ClientMain"
+    ]
+  },
+  "mixins": [
+    "tulip.mixins.json"
+  ],
+  "custom": {
+    "fabric-loom:generated": true
+  }
+}
